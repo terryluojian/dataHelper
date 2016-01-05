@@ -14,6 +14,7 @@
 		DED334471C3BA3BD00AA2F0B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DED334461C3BA3BD00AA2F0B /* Assets.xcassets */; };
 		DED3344A1C3BA3BD00AA2F0B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DED334481C3BA3BD00AA2F0B /* LaunchScreen.storyboard */; };
 		DED334541C3BA3F900AA2F0B /* CSV.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED334531C3BA3F900AA2F0B /* CSV.swift */; };
+		DED334571C3BA70D00AA2F0B /* testCSV.csv in Resources */ = {isa = PBXBuildFile; fileRef = DED334561C3BA70D00AA2F0B /* testCSV.csv */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		DED334491C3BA3BD00AA2F0B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DED3344B1C3BA3BD00AA2F0B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DED334531C3BA3F900AA2F0B /* CSV.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CSV.swift; sourceTree = "<group>"; };
+		DED334561C3BA70D00AA2F0B /* testCSV.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = testCSV.csv; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 				DED3343C1C3BA3BD00AA2F0B /* AppDelegate.swift */,
 				DED3343E1C3BA3BD00AA2F0B /* ViewController.swift */,
 				DED334531C3BA3F900AA2F0B /* CSV.swift */,
+				DED334551C3BA6F200AA2F0B /* csv */,
 				DED334401C3BA3BD00AA2F0B /* Main.storyboard */,
 				DED334461C3BA3BD00AA2F0B /* Assets.xcassets */,
 				DED334481C3BA3BD00AA2F0B /* LaunchScreen.storyboard */,
@@ -68,6 +71,14 @@
 				DED334431C3BA3BD00AA2F0B /* dataHelper.xcdatamodeld */,
 			);
 			path = dataHelper;
+			sourceTree = "<group>";
+		};
+		DED334551C3BA6F200AA2F0B /* csv */ = {
+			isa = PBXGroup;
+			children = (
+				DED334561C3BA70D00AA2F0B /* testCSV.csv */,
+			);
+			name = csv;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -129,6 +140,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DED3344A1C3BA3BD00AA2F0B /* LaunchScreen.storyboard in Resources */,
+				DED334571C3BA70D00AA2F0B /* testCSV.csv in Resources */,
 				DED334471C3BA3BD00AA2F0B /* Assets.xcassets in Resources */,
 				DED334421C3BA3BD00AA2F0B /* Main.storyboard in Resources */,
 			);
