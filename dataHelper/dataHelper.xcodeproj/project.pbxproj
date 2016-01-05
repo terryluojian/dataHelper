@@ -15,6 +15,7 @@
 		DED3344A1C3BA3BD00AA2F0B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DED334481C3BA3BD00AA2F0B /* LaunchScreen.storyboard */; };
 		DED334541C3BA3F900AA2F0B /* CSV.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED334531C3BA3F900AA2F0B /* CSV.swift */; };
 		DED334571C3BA70D00AA2F0B /* testCSV.csv in Resources */ = {isa = PBXBuildFile; fileRef = DED334561C3BA70D00AA2F0B /* testCSV.csv */; };
+		DED3345A1C3BAC8E00AA2F0B /* testPlist.plist in Resources */ = {isa = PBXBuildFile; fileRef = DED334591C3BAC8E00AA2F0B /* testPlist.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		DED3344B1C3BA3BD00AA2F0B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DED334531C3BA3F900AA2F0B /* CSV.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CSV.swift; sourceTree = "<group>"; };
 		DED334561C3BA70D00AA2F0B /* testCSV.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = testCSV.csv; sourceTree = "<group>"; };
+		DED334591C3BAC8E00AA2F0B /* testPlist.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = testPlist.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				DED3343C1C3BA3BD00AA2F0B /* AppDelegate.swift */,
 				DED3343E1C3BA3BD00AA2F0B /* ViewController.swift */,
 				DED334531C3BA3F900AA2F0B /* CSV.swift */,
+				DED334581C3BAADE00AA2F0B /* plist */,
 				DED334551C3BA6F200AA2F0B /* csv */,
 				DED334401C3BA3BD00AA2F0B /* Main.storyboard */,
 				DED334461C3BA3BD00AA2F0B /* Assets.xcassets */,
@@ -79,6 +82,14 @@
 				DED334561C3BA70D00AA2F0B /* testCSV.csv */,
 			);
 			name = csv;
+			sourceTree = "<group>";
+		};
+		DED334581C3BAADE00AA2F0B /* plist */ = {
+			isa = PBXGroup;
+			children = (
+				DED334591C3BAC8E00AA2F0B /* testPlist.plist */,
+			);
+			name = plist;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,6 +151,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DED3344A1C3BA3BD00AA2F0B /* LaunchScreen.storyboard in Resources */,
+				DED3345A1C3BAC8E00AA2F0B /* testPlist.plist in Resources */,
 				DED334571C3BA70D00AA2F0B /* testCSV.csv in Resources */,
 				DED334471C3BA3BD00AA2F0B /* Assets.xcassets in Resources */,
 				DED334421C3BA3BD00AA2F0B /* Main.storyboard in Resources */,
