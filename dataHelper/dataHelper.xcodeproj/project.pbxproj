@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		18061BF01C3D5101000D44F0 /* AesEncode.m in Sources */ = {isa = PBXBuildFile; fileRef = 18061BED1C3D5101000D44F0 /* AesEncode.m */; };
 		18061BF11C3D5101000D44F0 /* Base64codeFunc.m in Sources */ = {isa = PBXBuildFile; fileRef = 18061BEF1C3D5101000D44F0 /* Base64codeFunc.m */; };
+		18061BF41C3D5234000D44F0 /* stringAes.m in Sources */ = {isa = PBXBuildFile; fileRef = 18061BF31C3D5234000D44F0 /* stringAes.m */; };
 		DED3343D1C3BA3BD00AA2F0B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED3343C1C3BA3BD00AA2F0B /* AppDelegate.swift */; };
 		DED3343F1C3BA3BD00AA2F0B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED3343E1C3BA3BD00AA2F0B /* ViewController.swift */; };
 		DED334421C3BA3BD00AA2F0B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DED334401C3BA3BD00AA2F0B /* Main.storyboard */; };
@@ -26,6 +27,8 @@
 		18061BED1C3D5101000D44F0 /* AesEncode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AesEncode.m; sourceTree = "<group>"; };
 		18061BEE1C3D5101000D44F0 /* Base64codeFunc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Base64codeFunc.h; sourceTree = "<group>"; };
 		18061BEF1C3D5101000D44F0 /* Base64codeFunc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Base64codeFunc.m; sourceTree = "<group>"; };
+		18061BF21C3D5234000D44F0 /* stringAes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = stringAes.h; sourceTree = "<group>"; };
+		18061BF31C3D5234000D44F0 /* stringAes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = stringAes.m; sourceTree = "<group>"; };
 		DED334391C3BA3BD00AA2F0B /* dataHelper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = dataHelper.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DED3343C1C3BA3BD00AA2F0B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DED3343E1C3BA3BD00AA2F0B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -58,6 +61,8 @@
 				18061BEE1C3D5101000D44F0 /* Base64codeFunc.h */,
 				18061BEF1C3D5101000D44F0 /* Base64codeFunc.m */,
 				18061BEB1C3D5100000D44F0 /* dataHelper-Bridging-Header.h */,
+				18061BF21C3D5234000D44F0 /* stringAes.h */,
+				18061BF31C3D5234000D44F0 /* stringAes.m */,
 			);
 			name = encode;
 			sourceTree = "<group>";
@@ -191,6 +196,7 @@
 				DED3343F1C3BA3BD00AA2F0B /* ViewController.swift in Sources */,
 				DED3343D1C3BA3BD00AA2F0B /* AppDelegate.swift in Sources */,
 				DED334451C3BA3BD00AA2F0B /* dataHelper.xcdatamodeld in Sources */,
+				18061BF41C3D5234000D44F0 /* stringAes.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
